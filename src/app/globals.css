@@ -57,3 +57,35 @@
     @apply bg-background text-foreground;
   }
 }
+/* Add this to your globals.css or create a new CSS module */
+
+.fixed-dock {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  width: max-content;
+}
+
+/* Optional: Add transition for smooth appearance */
+.fixed-dock {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Optional: Add hover effect */
+.fixed-dock:hover {
+  transform: translateX(-50%) scale(1.05);
+}
+
+/* Ensure it's visible on all backgrounds */
+.fixed-dock {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile optimization */
+@media (max-width: 640px) {
+  .fixed-dock {
+    bottom: 1rem;
+  }
+}

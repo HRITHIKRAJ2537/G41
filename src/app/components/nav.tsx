@@ -41,19 +41,19 @@ export function Nav({ role }: NavProps) {
   const userRole = role || 'student'; // Default to 'student' if role is undefined
 
   return (
-    <nav className="bg-amber-100 shadow-md fixed top-0 left-0 right-0 z-10">
+    <nav className="bg-white shadow-md fixed top-0 left-0 right-0 z-10">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-xl font-bold text-orange-500">Campus Points</Link>
+          <Link href="/" className="text-xl font-bold text-black">Campus Points</Link>
           <ul className="flex space-x-4">
             {navItems[userRole].map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
                   className={cn(
-                    "text-sm font-medium transition-colors hover:text-orange-500",
+                    "text-sm font-medium transition-colors hover:text-black",
                     pathname === item.href
-                      ? "text-orange-500"
+                      ? "text-black"
                       : "text-muted-foreground"
                   )}
                 >

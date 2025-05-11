@@ -35,54 +35,54 @@ export default function Home() {
         {/* Stats Section */}
         <div className="max-w-7xl mx-auto py-12 px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <Card className="bg-white hover:shadow-lg transition-all border-orange-100">
+            <Card className="bg-white hover:shadow-lg transition-all">
               <CardContent className="pt-6">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm text-gray-500">Total Users</p>
-                    <p className="text-3xl font-bold mt-1 text-orange-600">2,500+</p>
+                    <p className="text-3xl font-bold mt-1">2,500+</p>
                   </div>
-                  <div className="p-3 bg-orange-100 rounded-full">
-                    <Users className="h-6 w-6 text-orange-600" />
+                  <div className="p-3 bg-blue-100 rounded-full">
+                    <Users className="h-6 w-6 text-blue-600" />
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="bg-white hover:shadow-lg transition-all border-orange-100">
+            <Card className="bg-white hover:shadow-lg transition-all">
               <CardContent className="pt-6">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm text-gray-500">Transactions</p>
-                    <p className="text-3xl font-bold mt-1 text-orange-600">14,320</p>
+                    <p className="text-3xl font-bold mt-1">14,320</p>
                   </div>
-                  <div className="p-3 bg-orange-100 rounded-full">
-                    <Wallet className="h-6 w-6 text-orange-600" />
+                  <div className="p-3 bg-green-100 rounded-full">
+                    <Wallet className="h-6 w-6 text-green-600" />
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="bg-white hover:shadow-lg transition-all border-orange-100">
+            <Card className="bg-white hover:shadow-lg transition-all">
               <CardContent className="pt-6">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm text-gray-500">Total Volume</p>
-                    <p className="text-3xl font-bold mt-1 text-orange-600">₹158K</p>
+                    <p className="text-3xl font-bold mt-1">₹158K</p>
                   </div>
-                  <div className="p-3 bg-orange-100 rounded-full">
-                    <BadgeDollarSign className="h-6 w-6 text-orange-600" />
+                  <div className="p-3 bg-purple-100 rounded-full">
+                    <BadgeDollarSign className="h-6 w-6 text-purple-600" />
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="bg-white hover:shadow-lg transition-all border-orange-100">
+            <Card className="bg-white hover:shadow-lg transition-all">
               <CardContent className="pt-6">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm text-gray-500">Growth</p>
-                    <p className="text-3xl font-bold mt-1 text-orange-600">+24%</p>
+                    <p className="text-3xl font-bold mt-1">+24%</p>
                   </div>
                   <div className="p-3 bg-orange-100 rounded-full">
                     <TrendingUp className="h-6 w-6 text-orange-600" />
@@ -103,39 +103,39 @@ export default function Home() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
-            <Card className="bg-white hover:shadow-lg transition-all overflow-hidden border-orange-100">
-              <div className="h-48 bg-gradient-to-r from-orange-500 to-amber-400"></div>
+            <Card className="bg-white hover:shadow-lg transition-all overflow-hidden">
+              <div className="h-48 bg-gradient-to-r from-purple-500 to-blue-600"></div>
               <CardHeader>
-                <CardTitle className="text-orange-600">Navaraas</CardTitle>
+                <CardTitle>Navaraas</CardTitle>
                 <CardDescription>October 15-24, 2023</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">Join us for the vibrant celebration of Navaraas! Experience nine nights of music, dance, and cultural festivities. Use your Campus Points for special discounts on event tickets and refreshments.</p>
-                <Button className="w-full bg-orange-600 hover:bg-orange-700">Get Tickets</Button>
+                <Button className="w-full">Get Tickets</Button>
               </CardContent>
             </Card>
 
-            <Card className="bg-white hover:shadow-lg transition-all overflow-hidden border-orange-100">
-              <div className="h-48 bg-gradient-to-r from-amber-500 to-orange-400"></div>
+            <Card className="bg-white hover:shadow-lg transition-all overflow-hidden">
+              <div className="h-48 bg-gradient-to-r from-blue-500 to-cyan-400"></div>
               <CardHeader>
-                <CardTitle className="text-orange-600">KMIT Evening</CardTitle>
+                <CardTitle>KMIT Evening</CardTitle>
                 <CardDescription>December 5, 2023</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">Don't miss the annual KMIT Evening! Enjoy performances by talented students, faculty, and guest artists. Redeem your Campus Points for exclusive seating and merchandise.</p>
-                <Button className="w-full bg-orange-600 hover:bg-orange-700">Get Tickets</Button>
+                <Button className="w-full">Get Tickets</Button>
               </CardContent>
             </Card>
 
-            <Card className="bg-white hover:shadow-lg transition-all overflow-hidden border-orange-100">
-              <div className="h-48 bg-gradient-to-r from-orange-600 to-amber-500"></div>
+            <Card className="bg-white hover:shadow-lg transition-all overflow-hidden">
+              <div className="h-48 bg-gradient-to-r from-green-500 to-emerald-400"></div>
               <CardHeader>
-                <CardTitle className="text-orange-600">Tech Symposium</CardTitle>
+                <CardTitle>Tech Symposium</CardTitle>
                 <CardDescription>February 10-12, 2024</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">Explore the latest innovations at our Tech Symposium. Network with industry professionals and attend workshops on blockchain, AI, and more. Special point rewards for active participation!</p>
-                <Button className="w-full bg-orange-600 hover:bg-orange-700">Register Now</Button>
+                <Button className="w-full">Register Now</Button>
               </CardContent>
             </Card>
           </div>
@@ -145,28 +145,28 @@ export default function Home() {
         <div className="max-w-7xl mx-auto py-12 px-4 mb-12">
           <h2 className="text-3xl font-bold mb-8">Quick Actions</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <Card className="bg-gradient-to-br from-orange-500 to-amber-600 text-white hover:shadow-lg transition-all text-center cursor-pointer">
+            <Card className="bg-gradient-to-br from-blue-500 to-purple-600 text-white hover:shadow-lg transition-all text-center cursor-pointer">
               <CardContent className="pt-6 pb-6">
                 <Wallet className="h-12 w-12 mx-auto mb-4" />
                 <h3 className="text-xl font-bold">Transfer Points</h3>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-amber-500 to-orange-600 text-white hover:shadow-lg transition-all text-center cursor-pointer">
+            <Card className="bg-gradient-to-br from-green-500 to-teal-600 text-white hover:shadow-lg transition-all text-center cursor-pointer">
               <CardContent className="pt-6 pb-6">
                 <BadgeDollarSign className="h-12 w-12 mx-auto mb-4" />
                 <h3 className="text-xl font-bold">Check Balance</h3>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-orange-600 to-amber-500 text-white hover:shadow-lg transition-all text-center cursor-pointer">
+            <Card className="bg-gradient-to-br from-orange-500 to-red-600 text-white hover:shadow-lg transition-all text-center cursor-pointer">
               <CardContent className="pt-6 pb-6">
                 <Users className="h-12 w-12 mx-auto mb-4" />
                 <h3 className="text-xl font-bold">Merchant Directory</h3>
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-amber-600 to-orange-500 text-white hover:shadow-lg transition-all text-center cursor-pointer">
+            <Card className="bg-gradient-to-br from-indigo-500 to-blue-700 text-white hover:shadow-lg transition-all text-center cursor-pointer">
               <CardContent className="pt-6 pb-6">
                 <TrendingUp className="h-12 w-12 mx-auto mb-4" />
                 <h3 className="text-xl font-bold">View Analytics</h3>
