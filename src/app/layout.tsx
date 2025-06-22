@@ -1,6 +1,6 @@
-import '../globals.css'
+import './globals.css'
 import { Inter } from 'next/font/google'
-import { Nav } from '../components/nav'
+import { Nav } from './components/nav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Nav />
+        <Nav role={'student'} />
+        
         <main className="container mx-auto p-4 pt-20">
           {children}
         </main>
