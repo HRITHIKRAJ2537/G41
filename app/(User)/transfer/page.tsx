@@ -2,11 +2,11 @@
 
 import { useState } from 'react'
 import Web3 from 'web3'
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
+import { Button } from '../../../components/ui/button'
+import { Input } from '../../../components/ui/input'
+import { Label } from '../../../components/ui/label'
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '../../../components/ui/card'
+import { Alert, AlertDescription, AlertTitle } from '../../../components/ui/alert'
 import { AlertCircle, CheckCircle2 } from 'lucide-react'
 
 export default function TransferPage() {

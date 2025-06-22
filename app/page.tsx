@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Boxes } from "@/components/ui/background-boxes";
-import { cn } from "@/lib/utils";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import { Boxes } from "../components/ui/background-boxes";
+import { cn } from "../lib/utils";
 import { ArrowRight, Wallet, BadgeDollarSign, TrendingUp, Users } from "lucide-react";
 
 export default function Home() {
