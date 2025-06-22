@@ -53,7 +53,7 @@ const [notifications, setNotifications] = useState<boolean>(true);
     setLoading(true)
     try {
       // Connect to local Ganache instance
-      const web3Instance = new Web3("http://127.0.0.1:7545")
+      const web3Instance = new Web3(process.env.NEXT_PUBLIC_GANACHE_URL)
 
       // Fetch accounts from Ganache
       const accounts = await web3Instance.eth.getAccounts()

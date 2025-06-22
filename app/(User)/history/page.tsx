@@ -13,10 +13,10 @@ export default function TransactionHistoryPage() {
   const [loading, setLoading] = useState(true);
 
   // Initialize web3 and set up Ganache provider
-  const web3 = new Web3('http://127.0.0.1:7545'); // Ganache local provider
+  const web3 = new Web3(process.env.NEXT_PUBLIC_GANACHE_URL); // Ganache local provider
 
   // Replace with your contract address
-  const contractAddress = '0x030C030447324780CB5ed454101a1ef26704f2F0'; 
+  const contractAddress = '0x3Fa6A16ed0Fd1fB393eEBc3d971106F4D272Da30'; 
   const contractABI = [
     {
       "anonymous": false,

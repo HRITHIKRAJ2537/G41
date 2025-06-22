@@ -17,7 +17,7 @@ export default function TransferPage() {
 
   // Function to connect to Ganache and fetch account
   const connectBlockchain = async () => {
-    const web3 = new Web3("http://127.0.0.1:7545"); // Ganache RPC URL
+    const web3 = new Web3(process.env.NEXT_PUBLIC_GANACHE_URL); // Ganache RPC URL
     const accounts = await web3.eth.getAccounts(); // Get accounts from Ganache
     setAccount(accounts[0]); // Set the first account as the default wallet
   };
@@ -29,7 +29,7 @@ export default function TransferPage() {
       return;
     }
 
-    const web3 = new Web3("http://127.0.0.1:7545"); // Ganache RPC URL
+    const web3 = new Web3(process.env.NEXT_PUBLIC_GANACHE_URL); // Ganache RPC URL
 
     const tx = {
       from: account,
